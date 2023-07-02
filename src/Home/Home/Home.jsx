@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import SocialContact from "../social media/SocialContact";
 import { FaDownload } from "react-icons/fa";
 import AboutMe from "./About me/AboutMe";
+import Skills from "../Skills/Skills";
 
 const downloadPDF = () => {
   var link = document.createElement("a");
@@ -48,6 +49,7 @@ const Home = () => {
       </div>
       <SocialContact/>
       <AboutMe/>
+      <Skills></Skills>
     </>
   );
 };

@@ -1,8 +1,9 @@
+import { Zoom } from "react-awesome-reveal";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const SocialContact = () => {
   return (
-    <div>
+    <Zoom>
       <div className="flex justify-center gap-10 mb-10">
         <div className="stats shadow border-2 border-[#22b8cf]">
           <div className="stat">
@@ -45,7 +46,7 @@ const SocialContact = () => {
           </p>
         </div>
       </div>
-    </div>
+    </Zoom>
   );
 };
 
