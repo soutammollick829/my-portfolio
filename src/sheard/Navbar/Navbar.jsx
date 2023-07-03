@@ -56,7 +56,7 @@ const Navbar = () => {
           </li>
           <li>
           <NavLink
-            to="/services"
+            to="/projects"
             style={({ isActive, isPending }) => {
               return {
                 fontWeight: isActive ? "bold" : "",
@@ -64,7 +64,7 @@ const Navbar = () => {
               };
             }}
           >
-            <span className="font-semibold hover:text-[#22b8cf]">Services</span>
+            <span className="font-semibold hover:text-[#22b8cf]">My Projects</span>
           </NavLink>
           </li>
           <li>

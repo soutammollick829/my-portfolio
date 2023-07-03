@@ -5,6 +5,8 @@ import SocialContact from "../social media/SocialContact";
 import { FaDownload } from "react-icons/fa";
 import AboutMe from "./About me/AboutMe";
 import Skills from "../Skills/Skills";
+import MyWork from "./My work/MyWork";
+import ContactMe from "../../components/contact me/ContactMe";
 
 
 const Home = () => {
@@ -33,6 +35,8 @@ const Home = () => {
       <SocialContact/>
       <AboutMe/>
       <Skills></Skills>
+      <MyWork/>
+      <ContactMe/>
     </>
   );
 };

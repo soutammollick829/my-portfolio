@@ -19,6 +19,8 @@
     "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.6.0",
     "react-icons": "^4.10.1",
+    "react-lottie": "^1.2.3",
+    "react-parallax-tilt": "^1.7.151",
     "react-router-dom": "^6.14.1",
     "react-ts-typewriter": "^0.1.8-b",
     "sort-by": "^1.2.0"
