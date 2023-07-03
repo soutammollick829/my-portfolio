@@ -9,7 +9,7 @@ import image7 from "../../assets/skills/JavaScript-logo.webp";
 import image8 from "../../assets/skills/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png";
 import image9 from "../../assets/skills/493-4931277_database-icon-png-green-transparent-png.png";
 import image10 from "../../assets/skills/node-js-javascript-web-application-express-js-computer-software-others.jpg";
-import Marquee from "react-fast-marquee";
+import Tools from "./Use tools/Tools";
 
 const Skills = () => {
   return (
@@ -114,10 +114,10 @@ const Skills = () => {
         </Slide>
       </div>
       <div className="mt-10">
-        <h1 className="ml-10 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#1c7ed6] to-[#85e6f5]">Tools</h1>
-        <Marquee className="mt-10" pauseOnHover>
-          <h1>Soutam</h1>
-        </Marquee>
+        <h1 className="ml-10 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#1c7ed6] to-[#85e6f5]">
+          Tools
+        </h1>
+        <Tools />
       </div>
     </>
   );

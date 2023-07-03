@@ -1,21 +1,11 @@
 import Typewriter from "react-ts-typewriter";
 import image from "../../assets/image/FB_IMG_1584274881628.jpg";
 
-import { Link } from "react-router-dom";
 import SocialContact from "../social media/SocialContact";
 import { FaDownload } from "react-icons/fa";
 import AboutMe from "./About me/AboutMe";
 import Skills from "../Skills/Skills";
 
-const downloadPDF = () => {
-  var link = document.createElement("a");
-  link.href =
-    "https://drive.google.com/drive/u/0/folders/1pOmu1bfbUnAB3ZlhSkDmp_H7FR9nocoB";
-  link.download = "soutammollick829@gmail.com.pdf";
-
-  // Trigger the download
-  link.click();
-};
 
 const Home = () => {
   return (
@@ -36,14 +26,7 @@ const Home = () => {
               Unleashing the full potential of the web with React: <br />{" "}
               Crafting captivating and cutting-edge digital experiences
             </p>
-            <Link>
-              <button
-                onClick={downloadPDF}
-                className="btn bg-gradient-to-r from-[#1c7ed6] to-[#22b8cf] text-white font-semibold"
-              >
-                Download Resume <FaDownload />
-              </button>
-            </Link>
+              <a className="btn bg-gradient-to-r from-[#1c7ed6] to-[#22b8cf] text-white font-semibold" href="/public/soutammollick829@gmail.com (3).pdf">Download Resume <FaDownload /></a>
           </div>
         </div>
       </div>

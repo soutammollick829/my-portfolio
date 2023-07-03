@@ -11,7 +11,7 @@ import AboutMe from "../Home/Home/About me/AboutMe";
       element: <Main/>,
       children: [
         {
-            path: "/home",
+            path: "/",
             element: <Home/>
         },
         {

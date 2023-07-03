@@ -30,7 +30,7 @@ const Navbar = () => {
           {/* Navbar menu content here */}
           <li>
           <NavLink
-            to="/home"
+            to="/"
             style={({ isActive, isPending }) => {
               return {
                 fontWeight: isActive ? "bold" : "",
