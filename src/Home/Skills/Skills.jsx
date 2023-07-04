@@ -19,7 +19,7 @@ const Skills = () => {
           My Skills
         </h1>
         <Slide>
-          <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mx-10 mb-10">
+          <div className="mt-20 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10 mx-10 mb-10">
             <div className="card lg:w-48 lg:h-60 border-2 shadow-2xl p-6">
               <figure>
                 <img src={image1} alt="car!" />

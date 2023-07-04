@@ -81,7 +81,16 @@ const Navbar = () => {
           </NavLink>
           </li>
         </ul>
-        <button className="btn bg-gradient-to-r from-[#1c7ed6] to-[#22b8cf] text-white font-semibold">hire me</button>
+        <button onClick={()=>window.my_modal_2.showModal()} className="btn bg-gradient-to-r from-[#1c7ed6] to-[#22b8cf] text-white font-semibold">hire me</button>
+        <dialog id="my_modal_2" className="modal">
+  <form method="dialog" className="modal-box">
+    <p className="py-4">Email: soutammollick829@gmail.com</p>
+    <p>phone/What s up: 01941238258</p>
+  </form>
+  <form method="dialog" className="modal-backdrop">
+    <button>close</button>
+  </form>
+</dialog>
       </div>
     </div>
   );

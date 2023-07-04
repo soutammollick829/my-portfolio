@@ -2,7 +2,8 @@ import emaillogo from "../../assets/contact/mail-envelope-icon-comic-style-email
 
 const ContactMe = () => {
   return (
-    <div className="mt-32 lg:mt-40 mx-10 lg:flex justify-center gap-10 mb-20">
+    <>
+    <div className="mt-32 lg:mt-40 mx-10 lg:flex justify-center gap-10 ">
       <div>
       <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#1c7ed6] to-[#85e6f5]">
         Contact me..
@@ -31,10 +32,16 @@ const ContactMe = () => {
             <span className="text-xl font-bold">Your message</span>
           </label>
           <textarea className="textarea border-2 border-[#22b8cf]" placeholder="Text your message here..."></textarea>
-          <button className="btn btn-sm w-24 mx-auto mt-5 bg-gradient-to-r from-[#1c7ed6] to-[#85e6f5] text-white">send</button>
+          <button className="btn btn-outline btn-sm border-[#1c7ed6] w-24 mx-auto mt-5 bg-gradient-to-r from-[#1c7ed6] to-[#85e6f5] text-white">send</button>
         </div>  
       </div>
     </div>
+      <div className="divider">OR</div>
+      <div className="mb-20 text-center text-xl font-bold font-mono">
+        Call me: 01941238258 |    
+        Email: <a >soutammollick829@gmail.com</a>
+      </div>
+    </>
   );
 };
 

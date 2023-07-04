@@ -7,26 +7,26 @@ const SocialContact = () => {
       <div className="flex justify-center gap-10 mb-10">
         <div className="stats shadow border-2 border-[#22b8cf]">
           <div className="stat">
-            <div className="text-2xl font-bold flex gap-3 items-center">
+            <a href="https://github.com/soutammollick829" target="blank" className="text-2xl font-bold flex gap-3 items-center">
               <FaGithub />
               Github
-            </div>
+            </a>
           </div>
         </div>
         <div className="stats shadow border-2 border-[#22b8cf]">
           <div className="stat">
-            <div className="text-2xl font-bold flex gap-3 items-center">
+            <a href="https://www.facebook.com/mallick.somudro/" target="blank" className="text-2xl font-bold flex gap-3 items-center">
               <FaFacebook />
               Facebook
-            </div>
+            </a>
           </div>
         </div>
         <div className="stats shadow border-2 border-[#22b8cf]">
           <div className="stat">
-            <div className="text-2xl font-bold flex gap-3 items-center">
+            <a href="https://www.linkedin.com/in/soutam-mallick-a0883727b/" target="blank" className="text-2xl font-bold flex gap-3 items-center">
               <FaLinkedin />
               Linkedin
-            </div>
+            </a>
           </div>
         </div>
       </div>
