@@ -1,5 +1,6 @@
 import Typewriter from "react-ts-typewriter";
 import image from "../../assets/image/FB_IMG_1584274881628.jpg";
+import resume from '../../assets/resume/soutammollick829@gmail.com (3).pdf'
 
 import SocialContact from "../social media/SocialContact";
 import { FaDownload } from "react-icons/fa";
@@ -28,7 +29,7 @@ const Home = () => {
               Unleashing the full potential of the web with React: <br />{" "}
               Crafting captivating and cutting-edge digital experiences
             </p>
-              <a className="btn bg-gradient-to-r from-[#1c7ed6] to-[#22b8cf] text-white font-semibold" href="/public/soutammollick829@gmail.com (3).pdf">Download Resume <FaDownload /></a>
+              <a className="btn bg-gradient-to-r from-[#1c7ed6] to-[#22b8cf] text-white font-semibold" href={resume}>Download Resume <FaDownload /></a>
           </div>
         </div>
       </div>
